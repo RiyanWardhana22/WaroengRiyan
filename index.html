@@ -29,15 +29,52 @@
       <div class="navbar-nav">
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu</a>
+        <a href="#menu">Produk</a>
+        <a href="#products">Layanan</a>
         <a href="#contact">Kontak</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
         <a href="#" id="list-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- Search start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Telusuri..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search end -->
+
+      <!-- Shopping Cart Start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img
+            src="https://i.postimg.cc/RCfcw2FC/Logo-Pulsa-2-1.png"
+            alt="Isi Ulang Pulsa"
+          />
+          <div class="item-detail">
+            <h3>Isi Ulang Pulsa</h3>
+            <div class="item-price">RP 7.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img
+            src="https://i.postimg.cc/hGd9MYr0/Logo-Token.jpg"
+            alt="Token Listrik"
+          />
+          <div class="item-detail">
+            <h3>Token Listrik</h3>
+            <div class="item-price">RP 23.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart End -->
     </nav>
     <!-- Navbar end -->
 
@@ -49,7 +86,7 @@
           Sebuah toko yang didirikan sejak 2012 yang masih berdiri kokoh dan
           berkembang sampai saat ini.
         </p>
-        <a href="#" class="cta">Beli Disini</a>
+        <!-- <a href="#menu" class="cta">Beli Disini</a> -->
       </main>
     </section>
     <!-- Hero Section End -->
@@ -82,7 +119,7 @@
 
     <!-- Menu Section Start -->
     <section id="menu" class="menu">
-      <h2><span>Menu</span> Kami</h2>
+      <h2><span>Produk</span> Kami</h2>
       <p>Kami juga mempunyai barang yang bagus dengan harga yang terjangkau</p>
 
       <div class="row">
@@ -92,7 +129,7 @@
             alt="Surya Kecil 12 Batang"
             class="menu-card-img"
           />
-          <h3 class="menu-card-title">- Surya Kecil 12 Batang -</h3>
+          <h3 class="menu-card-title"> Surya Kecil 12 Batang </h3>
           <p class="menu-card-price">RP 23.000</p>
         </div>
         <div class="menu-card">
@@ -101,7 +138,7 @@
             alt="Aqua aqua-600-ml "
             class="menu-card-img"
           />
-          <h3 class="menu-card-title">- Aqua 600ml -</h3>
+          <h3 class="menu-card-title"> Aqua 600ml </h3>
           <p class="menu-card-price">RP 3.000</p>
         </div>
         <div class="menu-card">
@@ -110,7 +147,7 @@
             alt="Sempoerna Mild 16 Batang"
             class="menu-card-img"
           />
-          <h3 class="menu-card-title">- Sempoerna Mild 16 Batang -</h3>
+          <h3 class="menu-card-title"> Sempoerna Mild 16 Batang </h3>
           <p class="menu-card-price">RP 31.000</p>
         </div>
         <div class="menu-card">
@@ -119,7 +156,7 @@
             alt="Mie Sedap Goreng"
             class="menu-card-img"
           />
-          <h3 class="menu-card-title">- Mie Sedap Goreng 1pcs -</h3>
+          <h3 class="menu-card-title"> Mie Sedap Goreng 1pcs </h3>
           <p class="menu-card-price">RP 3.000</p>
         </div>
         <div class="menu-card">
@@ -128,7 +165,7 @@
             alt="Teh Pucuk Harum"
             class="menu-card-img"
           />
-          <h3 class="menu-card-title">- Teh Pucuk Harum -</h3>
+          <h3 class="menu-card-title"> Teh Pucuk Harum </h3>
           <p class="menu-card-price">RP 3.000</p>
         </div>
         <div class="menu-card">
@@ -137,12 +174,71 @@
             alt="Popmie"
             class="menu-card-img"
           />
-          <h3 class="menu-card-title">- Popmie -</h3>
+          <h3 class="menu-card-title"> Popmie </h3>
           <p class="menu-card-price">RP 5.000</p>
         </div>
       </div>
     </section>
     <!-- Menu Section end -->
+
+    <!-- Product Section Start -->
+    <section class="products" id="products">
+      <h2><span>Layanan</span> Telekomunikasi</h2>
+      <p>
+        Waroeng Riyan selain menyediakan produk yang bagus, kita juga menyediakan layanan jasa untuk isi ulang pulsa dan juga token listrik.
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <!-- <a href="#"><i data-feather="shopping-cart"></i></a> -->
+            <a href="#" class="item-detail-button"><i data-feather="zoom-in"></i></a>
+          </div>
+          <div class="product-image">
+            <img
+              src="https://i.postimg.cc/RCfcw2FC/Logo-Pulsa-2-1.png"
+              alt="Product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3>Isi Ulang Pulsa</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <!-- <div class="product-price">RP 10.000 <span>RP 18.000</span></div> -->
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <!-- <a href="#"><i data-feather="shopping-cart"></i></a> -->
+            <a href="#" class="item-detail-button"><i data-feather="zoom-in"></i></a>
+          </div>
+          <div class="product-image">
+            <img
+              src="https://i.postimg.cc/hGd9MYr0/Logo-Token.jpg"
+              alt="Product 1"
+            />
+          </div>
+          <div class="product-content">
+            <h3>Token Listrik</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <!-- <div class="product-price">RP 10.000 <span>RP 18.000</span></div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Section End -->
 
     <!-- Contact Section Start -->
     <section id="contact" class="contact">
@@ -164,17 +260,17 @@
         <form action="">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="nama" />
-          </div>
-          <div class="input-group">
-            <i data-feather="mail"></i>
-            <input type="text" placeholder="email" />
+            <input type="text" placeholder="Nama" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="text" placeholder="no hp" />
+            <input type="text" placeholder="No HP" />
           </div>
-          <button type="submit" class="btn">kirim pesan</button>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Isi Pesan" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
         </form>
       </div>
     </section>
@@ -183,9 +279,13 @@
     <!-- Footer Start -->
     <footer>
       <div class="socials">
-        <a href=""><i data-feather="instagram"></i></a>
-        <a href=""><i data-feather="twitter"></i></a>
-        <a href=""><i data-feather="facebook"></i></a>
+        <a href="https://www.instagram.com/riyanwrdhna/"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href=""><i data-feather="message-circle"></i></a>
+        <a href="https://web.facebook.com/riyan.wardhana.3"
+          ><i data-feather="facebook"></i
+        ></a>
       </div>
 
       <div class="links">
@@ -196,11 +296,77 @@
       </div>
 
       <div class="credit">
-        <p>Dibuat Oleh <a href="">Riyan Wardhana</a> | &copy; 2023.</p>
+        <p>
+          Dibuat Oleh
+          <a href="https://www.instagram.com/riyanwrdhna/">Riyan Wardhana</a>
+          | &copy; 2023.
+        </p>
       </div>
     </footer>
 
     <!-- Footer end -->
+
+    <!-- Modal Box Items Start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img
+            src="https://i.postimg.cc/RCfcw2FC/Logo-Pulsa-2-1.png"
+            alt="Product 1"
+          />
+          <div class="product-content">
+            <h3>Layanan Isi Ulang Pulsa</h3>
+            <p>
+              |TSEL 5K RP 7.000| |TSEL 10K RP 12.000| |TSEL 20K RP 22.000| 
+            </p>
+            <div class="product-content">
+              <h3>List Harga</h3>
+              <div class="product-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star"></i>
+              </div>
+              <!-- <div class="product-price">RP 10.000 <span>RP 18.000</span></div> -->
+              <!-- <a href="#"><i data-feather="shopping-cart"></i>Tambah Ke Keranjang</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Items End -->
+
+    <!-- Modal Box Second Start-->
+    <div class="modal2" id="item-detail-modal">
+      <div class="modal-container2">
+        <a href="#" class="icon-close"><i data-feather="x"></i></a>
+        <div class="modal-content2">
+          <img
+            src="https://i.postimg.cc/hGd9MYr0/Logo-Token.jpg"
+            alt="Product 1"
+          />
+          <div class="product-content">
+            <h3>Token Listrik</h3>
+            <p>
+              |20 RP 23.000| |50 RP 53.000| |100 RP 103.000| 
+            </p>
+            <div class="product-content">
+              <h3>List Harga</h3>
+              <div class="product-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star"></i>
+              </div>
+              <!-- <div class="product-price">RP 10.000 <span>RP 18.000</span></div> -->
+              <!-- <a href="#"><i data-feather="shopping-cart"></i>Tambah Ke Keranjang</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Second End-->
 
     <!-- Feather Icons -->
     <script>
